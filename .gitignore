@@ -1,0 +1,19 @@
+# .gitignore content
+# Environment
+home-mlop/
+.env
+
+# Data & Model Artifacts (Tracked by DVC, ignored by Git)
+data/raw/
+data/processed/
+dvc.lock
+mlruns/
+
+# Python Caching & IDE Artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+.vscode
+
+# Logs
+logs/

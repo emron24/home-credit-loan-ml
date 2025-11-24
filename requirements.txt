@@ -1,0 +1,13 @@
+# requirements.txt
+pandas
+numpy
+scikit-learn
+lightgbm
+
+# MLOps Tools
+dvc[s3] # Change 's3' to 'gdrive' or 'azure' if you prefer cloud storage
+mlflow
+fastapi
+uvicorn
+pydantic
+python-dotenv
