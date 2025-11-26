@@ -4,7 +4,8 @@ home-mlop/
 .env
 
 # Data & Model Artifacts (Tracked by DVC, ignored by Git)
-data/raw/
+data/raw/*
+!data/raw/*.dvc
 data/processed/
 dvc.lock
 mlruns/
